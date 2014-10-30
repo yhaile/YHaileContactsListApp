@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" 
+  android:background="@drawable/activated_background" >
+  
+   <TextView 
+  	 android:id="@+id/contact_list_item_titleTextView"
+   	 android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+   	 android:focusable="false"
+     android:textStyle="bold"
+     android:paddingLeft="4dp"
+     android:paddingRight="4dp"
+     android:textColor="#000033" 
+     android:gravity="left"
+     android:text="@string/contact" /> 
+    
+   <TextView 
+     android:id="@+id/contact_list_item_titleTextView2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:focusable="false"
+     android:paddingLeft="4dp"
+     android:paddingRight="4dp"
+     android:textColor="#000033" 
+     android:gravity="right"
+     android:text="" />
+
+ 
+    <TextView 
+  	  android:id="@+id/contact_list_item_titleTextView3"
+   	  android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+   	  android:focusable="false"
+      android:textStyle="bold"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:textColor="#000033" 
+      android:gravity="left"
+      android:layout_below="@id/contact_list_item_titleTextView"
+      android:text="" /> 
+      
+</RelativeLayout>
